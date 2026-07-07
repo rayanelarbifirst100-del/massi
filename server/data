@@ -1,0 +1,119 @@
+products
+=========
+{
+    "id": 1,
+    "title": "سيارة Dacia Stepway 2023",
+    "price": "7000 دج/يوم",
+    "category": "سيارات",
+    "city": "الجزائر",
+    "rating": 0,
+    "description": "سيارة مريحة واقتصادية، نظيفة جداً، مثالية للرحلات الطويلة أو التنقل داخل المدينة.",
+    "authorId": "user_amine_001",
+    "images": [
+      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&h=600&fit=crop"
+    ],
+    "product_creation": "2024-05-23T10:30:00Z",
+}
+
+ users
+ =======
+{
+    "name": "rayane",
+    "authorId": "user_amine_001",
+    "bio": "مرحباً بكم في متجري الخاص! أقدم لكم أفضل المعدات والسيارات للكراء في الجزائر بجودة عالية وأسعار تنافسية.",
+    "email": "rayane.dev@kiraa.dz",
+    "image": "https://i.pravatar.cc/150?u=rayane",
+    "password":"",
+    "phone": "0555 11 22 33",
+    "account_status":"enabled",
+    "socials": {
+      "facebook": "https://facebook.com/rayane",
+      "instagram": "https://instagram.com/rayane",
+      "whatsapp": "https://wa.me/213770778899",
+      "twitter": "https://twitter.com/rayane"
+    }
+    "account_creation": "2024-05-23T10:30:00Z",
+  }
+
+
+messages
+==========
+{
+  "id": 1,
+  "conversationId": "chat_user1_user2",
+  "senderId": "user_amine_001",
+  "receiverId": "user_nour_002",
+  "content": {
+    "type": "text",
+    "text": "هل السيارة لا تزال متوفرة للكراء؟",
+    "metadata": {}
+  },
+  "timestamp": "2024-05-23T10:30:00Z",
+  "status": "delivered" 
+}
+
+orders
+=======
+ {
+    "id": "1",
+    "date": "2024-05-23",
+    "status": "pending",
+    "title": "سيارة Dacia Stepway 2023",
+    "price": "7000 دج/يوم", // Case 1: Has price
+    "authorId": "user_amine_001",
+    "productUrl": "/products?id=1"
+ }
+
+
+
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+
+
+products
+==========
+{
+    "title": "سيارة Dacia Stepway 2023",
+    "price": "7000 دج/يوم",
+    "category": "سيارات",
+    "authorId":"",
+    "city": "الجزائر",
+    "description": "سيارة مريحة واقتصادية، نظيفة جداً، مثالية للرحلات الطويلة أو التنقل داخل المدينة.",
+    "images": [
+      "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&h=600&fit=crop"
+    ]
+}
+
+
+ users
+ =======
+{
+    "name": "rayane",
+    "email": "rayane.dev@kiraa.dz",
+    "password":"hkhj",
+    "phone": "0555 11 22 33"
+ }
+
+
+
+orders
+=======
+ {
+    "date": "2024-05-23",
+    "title": "سيارة Dacia Stepway 2023",
+    "price": "7000 دج/يوم", // Case 1: Has price
+    "productUrl": "/products?id=1"
+ }
+
+
+
+
+
+
+rayande.dev@kiraa.dz
+
+securepassword123
